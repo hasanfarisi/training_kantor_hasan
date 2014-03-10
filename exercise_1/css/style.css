@@ -1,0 +1,24 @@
+/* CSS Document */
+body{}
+.inputForm{
+	float:right;
+	background:#333333;
+	padding:10px 20px 10px 20px; color:#FFFFFF}
+.menuBar{
+	border: 1px #E1E1E1 solid;
+	height: 40px; width:890px;
+  	background: -moz-linear-gradient(top, #35425d 0%, #fff 100%);
+  	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ccc));
+} 
+.menuLink{
+	font:12px;
+	padding:0 30px 0 30px;
+}
+#leftContent{
+	width:220px;
+	margin:10px 0 0 0;
+}
+#leftContent p{
+	border: 2px #e1e1e1 solid;
+	padding: 0 10px 0 10px;
+	}
