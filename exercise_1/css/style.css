@@ -41,11 +41,12 @@
 }
 .menuBar input{
 	float:right;
+	margin-top:-20px;
 	}
 .leftContent{
 	position:absolute;
 	margin:160px 0 0 0;
-	width:220px;
+	width:230px;
 }
 .leftContent p{
 	border: 2px #e1e1e1 solid;
@@ -56,7 +57,7 @@
 }
 .leftContent ul li{
 	list-style:none;
-	padding: 5px 5px 5px 20px;
+	padding: 5px 5px 5px 40px;
 	border-top: 1px dashed;
 	border-bottom: 1px dashed;
 }
