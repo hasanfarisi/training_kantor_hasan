@@ -1,143 +1,129 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<link rel='stylesheet' type='text/css' href='css/style.css' media='all' />
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8" />
+<head><link rel="stylesheet" href="css/style.css" /></head>
 <title>Exercise_1</title>
-</head>
-
 <body>
-<center>
-<table border="0">
-<tr><td><img src="images/logo.png" /></td>
-	<td><div class="inputForm">Language : 
-	<select>
-	<option>English</option>
-	<option>Indonesia</option>
-	</select>
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-	Currencies : <select>
-	<option>US Dollar</option>
-	<option>Rupiah</option>
-	</select></div></td>
-</tr>
-<tr>
-	<td colspan="2" class="menuBar">
-		<table border="0">
-			<tr class="menuLink">
-				<td><b><a href="#">Home</a></b></td>
-				<td><b><a href="#">What's New</a></b></td>
-				<td><b><a href="#">Specials</a></b></td>
-				<td><b><a href="#">My Account</a></b></td>
-				<td><b><a href="#">Contact</a></b></td>
-				<td class="none"><input type="text" /><input type="submit" value="Search" /></td></tr>
-		</table>
-	</td>
-</tr>
-<tr>
-	<td colspan="2">
-		<div id="leftContent">
-		<center><p>Login</p></center>
-			<p>Username : <input type="text" style="width:120px" /><br />
-			Password : <input type="password" style="width:120px" /><br />
-			<input type="submit" value="Login" />&nbsp;<input type="submit" value="Sign Up" /></p>
-		<center><p>Category</p></center>
-		<ul><b>Fashion</b>
-			<li><a href="#">Baby Clothes</a></li>
-			<li><a href="#">Night Dress</a></li>
-			<li><a href="#">T-Shirt</a></li>
-		</ul>
-		<ul><b>Gadged</b>
-			<li><a href="#">Blackberry</a></li>
-			<li><a href="#">Handphone</a></li>
-			<li><a href="#">Laptop</a></li>
-		</ul>
-		<ul><b>Book</b>
-			<li><a href="#">Novel</a></li>
-			<li><a href="#">Comic</a></li>
-			<li><a href="#">Ensyclopedia</a></li>
-		</ul>
+	<div class="head">
+		<img src="images/logo.png" />
+		<header>
+			<p>Language :
+			<select>
+			<option>English</option>
+			<option>Indonesia</option>
+			</select>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			Currencies : 
+			<select>
+			<option>US Dollar</option>
+			<option>Rupiah</option>
+			</select></p>
+		</header>
+		
+		<div class="menuBar">
+			<b><span><a href="#">Home</a></span></b>
+			<b><span><a href="#">What's New</a></span></b>
+			<b><span><a href="#">Specials</a></span></b>
+			<b><span><a href="#">My Account</a></span></b>
+			<b><span><a href="#">Contact</a></span></b>
+			<input type="submit" value="Search" /><input type="text" />
 		</div>
 		
-		<div id="centerContent">
-			<b>About <span>Shop</span></b><br />
-			Lorem Ipsum is simply dummy text of the printing and typesetting industry. Loren Ipsum has been the industry's standard dummy text ever since 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book, It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchenged.It was popularies in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including version of Lorem Ipsum<br /><br />
-			<b>Featured <span>Products</span></b><input type="submit" value="View All Product"/><br /><br />
-			<div class="products">
-				<img src="images/images.png" />
-				Name : <br />
-				Price : <br />
-				<input type="submit" value="Details" />
-			</div>
-			<div class="products">
-				<img src="images/images.png" />
-				Name : <br />
-				Price : <br />
-				<input type="submit" value="Details" />
-			</div>
-			<div class="products">
-				<img src="images/images.png" />
-				Name : <br />
-				Price : <br />
-				<input type="submit" value="Details" />
-			</div>
-			<div class="products">
-				<img src="images/images.png" />
-				Name : <br />
-				Price : <br />
-				<input type="submit" value="Details" />
-			</div>
-			<div class="products">
-				<img src="images/images.png" />
-				Name : <br />
-				Price : <br />
-				<input type="submit" value="Details" />
-			</div>
-			<div class="products">
-				<img src="images/images.png" />
-				Name : <br />
-				Price : <br />
-				<input type="submit" value="Details" />
-			</div>
-			<div class="products">
-				<img src="images/images.png" />
-				Name : <br />
-				Price : <br />
-				<input type="submit" value="Details" />
-			</div>
-			<div class="products">
-				<img src="images/images.png" />
-				Name : <br />
-				Price : <br />
-				<input type="submit" value="Details" />
-			</div>
-			<center>
-				<div class="article"><b>Latest Article from Buddies</b></div>
-			</center>
-				<div class="article2">
-				<p>"Lorem Impisum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna" <a href="#">Read More</a></p>
-				<p>"Lorem Impisum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna" <a href="#">Read More</a></p>
-				<p>"Lorem Impisum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna" <a href="#">Read More</a></p>
-				</div>
+		<div class="leftContent">
+			<center><p>Login</p></center>
+				<p>Username : <input type="text" style="width:120px" /><br />
+				Password : <input type="password" style="width:120px" /><br />
+				<input type="submit" value="Login" />&nbsp;<input type="submit" value="Sign Up" /></p>
+			<center><p>Category</p></center>
+			<ul><b>Fashion</b>
+				<li><a href="#">Baby Clothes</a></li>
+				<li><a href="#">Night Dress</a></li>
+				<li><a href="#">T-Shirt</a></li>
+			</ul>
+			<ul><b>Gadged</b>
+				<li><a href="#">Blackberry</a></li>
+				<li><a href="#">Handphone</a></li>
+				<li><a href="#">Laptop</a></li>
+			</ul>
+			<ul><b>Book</b>
+				<li><a href="#">Novel</a></li>
+				<li><a href="#">Comic</a></li>
+				<li><a href="#">Ensyclopedia</a></li>
+			</ul>
 		</div>
-	</td>
-</tr>
-<tr>
-	<td colspan="2" class="footerBar">
-		<table border="0">
-			<tr class="footerLink">
-				<td><a href="#">Home</a></td>
-				<td><a href="#">What's New</a></td>
-				<td><a href="#">Specials</a></td>
-				<td><a href="#">My Account</a></td>
-				<td><a href="#">Contact</a></td>
-			</tr>
-		</table>
-	</td>
-</tr>
+		
+		<div class="centerContent">
+			<b>About <span>Shop</span></b><br />
+			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Loren Ipsum has been the industry's standard dummy text ever since 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book, It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchenged.It was popularies in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including version of Lorem Ipsum</p>
+			<p><b>Featured <span>Products</span></b><input type="submit" value="View All Product"/></p>
+			<div class="products">
+				<img src="images/images.png" />
+				<p>Name : </p>
+				<p>Price : </p>
+				<input type="submit" value="Details" />
+			</div>
+			<div class="products">
+				<img src="images/images.png" />
+				<p>Name : </p>
+				<p>Price : </p>
+				<input type="submit" value="Details" />
+			</div>
+			<div class="products">
+				<img src="images/images.png" />
+				<p>Name : </p>
+				<p>Price : </p>
+				<input type="submit" value="Details" />
+			</div>
+			<div class="products">
+				<img src="images/images.png" />
+				<p>Name : </p>
+				<p>Price : </p>
+				<input type="submit" value="Details" />
+			</div>	
+			<div class="products">
+				<img src="images/images.png" />
+				<p>Name : </p>
+				<p>Price : </p>
+				<input type="submit" value="Details" />
+			</div>
+			<div class="products">
+				<img src="images/images.png" />
+				<p>Name : </p>
+				<p>Price : </p>
+				<input type="submit" value="Details" />
+			</div>
+			<div class="products">
+				<img src="images/images.png" />
+				<p>Name : </p>
+				<p>Price : </p>
+				<input type="submit" value="Details" />
+			</div>
+			<div class="products">
+				<img src="images/images.png" />
+				<p>Name : </p>
+				<p>Price : </p>
+				<input type="submit" value="Details" />
+			</div>	
+			<div class="articel">
+				<header>
+					<center><b>Latest Article from Buddies</b></center>
+				</header>
+			</div>
+			
+			<section>
+				<p>"Lorem Impisum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna to ut labore et dolore magna" <a href="#">Read More</a></p>
+				<p>"Lorem Impisum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna to ut labore et dolore magna" <a href="#">Read More</a></p>
+				<p>"Lorem Impisum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna to ut labore et dolore magna" <a href="#">Read More</a></p>
+			</section>
+		</div>
 
-</table>
-<span><b>Copyright &copy; Wolden Global Service 2011</b></span>
-</center>
+<footer>
+		<a href="#"><span>Home</span></a>
+		<a href="#"><span>What's New</span></a>
+		<a href="#"><span>Specials</span></a>
+		<a href="#"><span>My Account</span></a>
+		<a href="#"><span>Contact</span></a>
+<p><center><b style="color:#00CCFF">Copyright &copy; Wolden Global Service 2014</b></center></p>
+</footer>
 </body>
 </html>
