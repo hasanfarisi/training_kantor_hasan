@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8" />
+<head><link rel="stylesheet" href="css/style.css" /></head>
+<title>Exercise_2</title>
+<body>
+<div class="bg1">
+	<header>
+		<img src="images/title.png">
+	</header>
+</div>
+
+<div class="bg2">
+	<header>
+		<article>
+		<span>Audio</span>
+			<p>In our series on HTML5, we've discussed geolocation, link relations, form and keyboard events, media events, mouse events, global attributes and multimedia. This week we're going to expand upon our discussion on multimedia and delve further into HTML5's tag.
+The tag is new to HTML, like the tag, and allows developers to embed music on their websites (and unlike earlier attempts to add audio to a website, it isn't limited to old-fashioned midi music). That said, it does have limitations on the types of files that can be used. Currently any recent browser that is based on Webkit, such as Chrome and Safari, supports the use of regular .mp3 files. Others, such as Firefox, only support the .ogg format.
+The good news is that you can either convert your files from .mp3 to .ogg (one audio conversion tool, media.io, can be used online) or just supply two versions of your audio file, one in each format. When Safari, for instance, comes across the tag, it will ignore the .mp3 file and move directly to the .ogg file.
+			<ol>Format audio :
+				<li>ogg => ff3.5, opera 10.5, chrome 3</li>
+				<li>mp3 => safari, chrome</li>
+				<li>wav => safari, firefox, opera</li>
+			</ol>
+			</p>
+		</article>
+		<nav>
+			<audio controls>
+				<source src="sound/1380.wav" type="audio/wav">
+				Your browser does not support the audio element.
+			</audio>
+		</nav>
+	</header>
+</div>
+
+<div class="bg3">
+	<header>
+		<article>
+			<span>Video</span>
+				<p>
+Thankfully, we can get coverage for all modern (and mobile) browsers using only two formats:</p>
+<ol>
+<li>WebM - uses the VP8 codec for video and the Vorbis codec for audio</li>
+<li>MP4 - uses the H.264 codec for video and the AAC codec for audio</li>
+</ol>
+<p>
+WebM was designed specifically for serving video on the web, and has many benefits. Its low computational footprint means that it plays well on high-end desktops but also on low-powered devices like tablets or phones. High compression rates for video, which means videos can be downloaded faster, or you can improve the quality without a significant size increase. The encoding process is also significantly simpler with fewer profiles and sub-options.
+
+Support for WebM is available natively in Chrome, Firefox and Opera, and can be added to Internet Explorer or desktop Safari by installing a plug-in. When not available natively or if the plug-in isn't installed, you'll need to provide the video encoded using the MP4 format.
+
+The video chapter on www.diveintohtml5.info has an excellent section on how best to encode your videos. They recommend using ffmpeg for WebM videos and HandBrake for MP4 videos.</p>
+		</article>
+		<nav>
+			<video width="520" height="370" controls="controls">
+			  <source src="video/contoh2.mp4" type="video/mp4" />
+			  Your browser does not support the video tag.
+			</video>
+		</nav>
+	</header>
+</div>
+
+<div class="bg4">
+	<img src="images/thanks.png">
+</div>
+</body>
+</html>

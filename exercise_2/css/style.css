@@ -1,0 +1,101 @@
+/* CSS Document */
+body{}
+.bg1{
+	background:url(../images/silho.jpg) top no-repeat fixed;
+	-webkit-background-size: 100% 100%;
+	width: 101%; height:100%;
+	margin:-8px 0px -20px -8px;
+	}
+.bg1 header{
+	background:url(../images/logo.png) top no-repeat fixed;
+}
+.bg1 header img{
+	display:block;
+	margin:0px auto 0px auto;
+	padding:300px 0 121px 0;
+	}
+.bg2{
+	background:url(../images/bg2.jpg) bottom no-repeat fixed;
+	-webkit-background-size: 100% 100%;
+	width: 101%; height:100%;
+	margin:-8px 0 0 -8px;
+	}
+.bg2 header{
+	margin:0px auto 100px auto;
+	padding-top:100px;
+	width:980px;
+}
+.bg2 header article{
+	background:#303030;
+	width: 360px;
+	}
+.bg2 header span{
+	color:#FFF;
+	font-family:forte;
+	font-size:54px;
+	padding: 20px;
+	}
+.bg2 article p{
+	color:#FFF;
+	font-family:georgia;
+	font-size:14px;
+	padding:20px;
+	}
+.bg2 ol{
+	color:#fff;
+}
+.bg2 nav{
+	position:relative;
+	float:right;
+	margin-top:-320px;
+}
+.bg2 nav audio{
+	width:450px;
+}
+.bg3{
+	background:url(../images/bg3.jpg) bottom no-repeat fixed;
+	-webkit-background-size: 100% 100%;
+	width: 101%; height:100%;
+	margin:-8px 0 0 -8px;
+	}
+.bg3 header{
+	margin:0px auto 100px auto;
+	padding-top:100px;
+	width:980px;
+}
+.bg3 header article{
+	background:#303030;
+	width: 360px;
+	}
+.bg3 header span{
+	color:#FFF;
+	font-family:forte;
+	font-size:54px;
+	padding: 20px;
+	}
+.bg3 article p{
+	color:#FFF;
+	font-family:georgia;
+	font-size:14px;
+	padding:20px;
+	}
+.bg3 ol{
+	color:#fff;
+	padding-right:20px;
+}	
+.bg3 nav{
+	position:relative;
+	float:right;
+	margin-top:-500px;
+}
+.bg4{
+	background:url(../images/bg4.jpg) bottom no-repeat fixed;
+	-webkit-background-size: 100% 100%;
+	width: 101%; height:100%;
+	margin:-8px 0 0 -8px;
+	}
+.bg4 img{
+	display:block;
+	margin:0px auto 0px auto;
+	padding:280px;
+}
