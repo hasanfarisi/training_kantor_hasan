@@ -1,5 +1,4 @@
 /* CSS Document */
-body{}
 .inputForm{
 	float:right;
 	background:#333333;
@@ -7,12 +6,23 @@ body{}
 .menuBar{
 	border: 1px #E1E1E1 solid;
 	height: 40px; width:890px;
-  	background: -moz-linear-gradient(top, #35425d 0%, #fff 100%);
+  	background: -moz-linear-gradient(top, #fff 0%, #ccc 100%);
   	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ccc));
 } 
-.menuLink{
+.menuLink td{
 	font:12px;
-	padding:0 30px 0 30px;
+	padding:0 35px 0 35px;
+	border-right: solid 2px #999999;
+}
+.menuLink a:link, .menuLink a:active, .menuLink a:visited{
+	text-decoration:none;
+	color:#000000;
+}
+.menuLink a:hover{
+	color:#00CCFF;
+}
+td .none{
+	border-right: none;
 }
 #leftContent{
 	width:220px;
@@ -22,3 +32,87 @@ body{}
 	border: 2px #e1e1e1 solid;
 	padding: 0 10px 0 10px;
 	}
+#leftContent ul {
+	margin:0 0 0 -40px;
+}
+#leftContent ul li{
+	list-style:none;
+	padding: 5px 5px 5px 20px;
+	border-top: 1px dashed;
+	border-bottom: 1px dashed;
+}
+#leftContent ul li a:link, #leftContent ul li a:active, #leftContent ul li a:visited{
+	text-decoration:none;
+}
+#leftContent ul li a:hover{
+	color:red;
+}
+#centerContent{
+	margin:-528px 0 0 240px;
+	width: 738px;
+	position: relative;
+}
+span{
+	color:#00CCFF;
+}
+#centerContent input{
+	float:right;
+ 	color:#FFF;
+ 	background:#0099FF;
+ 	background: -moz-linear-gradient(top, #fff 0%, #ccc 100%);
+  	background: -webkit-gradient(linear, left top, left bottom, from(  #62DEF9), to(#33CCFF));
+	border: none;
+	padding:4px;
+}
+.products{
+	position: relative;
+	float:left;
+	margin:20px 20px 0 0;
+	border: 2px solid #CCCCCC;
+	width: 150px;
+	padding: 5px;
+}
+.products img{
+	padding-bottom: 40px;
+}
+.products input{
+	float:right;
+}
+.article{
+	width:710px; height:20px;
+	margin:490px 0 0 -22px;
+	border: 2px solid #CCCCCC;
+}
+.article p{
+	float:left;
+}
+.article2{
+	width:710px;
+	margin:20px 0 10px 1px;
+	border: 2px solid #CCCCCC;
+}
+.article2 p{
+	margin-top:5px;
+	border-bottom: 2px dashed;
+}
+.footerBar{
+	border: 1px #E1E1E1 solid;
+	height: 40px; width:890px;
+  	background: -moz-linear-gradient(top, #666 0%, #000 100%);
+  	background: -webkit-gradient(linear, left top, left bottom, from(#666), to(#000));
+}
+.footerLink{
+	font:12px;
+	color:#FFFFFF;
+}
+.footerLink td{
+	padding:0 60px 0 60px;
+	border-right: solid 2px #666666;
+} 
+.footerLink a:link, .footerLink a:active, .footerLink a:visited{
+	text-decoration:none;
+	color:#fff;
+}
+.footerLink a:hover{
+	color:#ccc;
+}
