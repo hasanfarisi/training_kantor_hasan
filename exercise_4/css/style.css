@@ -236,6 +236,10 @@ body {
   	-webkit-border-radius:10px 10px 0px 0px;
 }
 
+.none{
+	border-bottom: none;
+}
+
 .end{
 	margin-top: 5px;
 	border-top: solid 2px;
