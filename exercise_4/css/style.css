@@ -1,13 +1,18 @@
 body {
 	background: -moz-linear-gradient(top, #577fff 0%, #0743ff 100%) no-repeat;
   	background: -webkit-gradient(linear, left top, left bottom, from(#b2d9f1), to(#77abcc)) no-repeat;
+  	-pie-background: linear-gradient(#b2d9f1, #77abcc);
+  	background: -ms-linear-gradient(#b2d9f1, #77abcc);
 }
 
 .menuLink{
 	padding: 5px;
   	-webkit-border-radius:0 0 10px 10px;
+  	behavior: url(PIE.htc);	
   	background: -moz-linear-gradient(top, #577fff 0%, #0743ff 100%) no-repeat;
   	background: -webkit-gradient(linear, left top, left bottom, from(#0743ff), to(#3784b4)) no-repeat;
+  	background: -ms-linear-gradient(#0743ff, #3784b4);
+ 	-pie-background: linear-gradient(#b2d9f1, #77abcc); 	
   	position: relative;
   	height: 120px;
   	margin:0px 0px 0px -10px;
@@ -29,6 +34,8 @@ body {
 	color: #7ac22d;
 	background: -moz-linear-gradient(top, #577fff 0%, #0743ff 100%) no-repeat;
   	background: -webkit-gradient(linear, left top, left bottom, from(#0743ff), to(#577fff)) no-repeat;
+  	-pie-background: linear-gradient(#0743ff, #577fff);
+  	background: -ms-linear-gradient(#0743ff, #577fff);
   	-webkit-border-radius:0px 0px 10px 10px;
 }
 .menuLink p{
@@ -52,6 +59,8 @@ body {
 .boxNews {
   	background: -moz-linear-gradient(top, #f4f4f4 0%, #f9f9f9 100%) no-repeat;
   	background: -webkit-gradient(linear, left top, left bottom, from(#f4f4f4), to(#f9f9f9)) no-repeat;
+  	-pie-background: linear-gradient(#f4f4f4, #f9f9f9);
+  	background: -ms-linear-gradient(#f4f4f4, #f9f9f9);
   	margin: 30px 0 0 -10px;
   	padding:10px;
   	-webkit-box-shadow: 0px 1px 7px 1px #919191;
@@ -63,6 +72,8 @@ body {
 .eventBox {
   	background: -moz-linear-gradient(top, #f9f9f9 0%, #f4f4f4 100%) no-repeat;
   	background: -webkit-gradient(linear, left top, left bottom, from(#f9f9f9), to(#f4f4f4)) no-repeat;
+  	-pie-background: linear-gradient(#f9f9f9, #f4f4f4);
+  	background: -ms-linear-gradient(#f9f9f9, #f4f4f4);
   	margin: 30px 0px 0 10px;
   	padding:10px;
   	-webkit-box-shadow: 0px 1px 7px 1px #919191;
@@ -76,6 +87,8 @@ body {
 	margin: 0px 0 10px 0;
 	background: -moz-linear-gradient(top, #6dc80a 0%, #41710c 100%) no-repeat;
   	background: -webkit-gradient(linear, left top, left bottom, from(#6dc80a), to(#41710c)) no-repeat;
+  	-pie-background: linear-gradient(#6dc80a, #41710c);
+  	background: -ms-linear-gradient(#6dc80a, #41710c);
   	padding: 5px;
   	width: 570px;
   	-webkit-border-radius:5px;
@@ -154,6 +167,8 @@ body {
 	margin:20px 0 0 0; 
 	background: -moz-linear-gradient(top, #6dc80a 0%, #41710c 100%) no-repeat;
   	background: -webkit-gradient(linear, left top, left bottom, from(#6dc80a), to(#41710c)) no-repeat;
+  	-pie-background: linear-gradient(#6dc80a, #41710c);
+  	background: -ms-linear-gradient(#6dc80a, #41710c);
   	padding: 5px;
   	color: #fff;
   	-webkit-border-radius:5px;
@@ -214,6 +229,16 @@ body {
 	color:#000;
 	text-decoration: none;
 }
+header{
+    display:block;
+}
+section{
+    display: block;
+}
+nav{
+    display: block;
+}
+
 .event a:hover{
 	color: #577fff;
 }
